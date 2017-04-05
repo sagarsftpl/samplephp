@@ -23,9 +23,9 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: /index.php
+  - source: /
     destination: /var/www/html
-    overwrite: true
+    overwrite: yes
 #  - source:
 #    destination:
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
